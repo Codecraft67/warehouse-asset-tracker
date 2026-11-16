@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node
+node_modules/
+frontend/dist/
+
+# Runtime data (database + uploaded photos stay on the warehouse server)
+backend/assets.db
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+.env
+.DS_Store
